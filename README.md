@@ -1,2 +1,11 @@
 # Proyecto-Paradigmas
-Este va ser el repositorio donde versionaremos el proyecto de paradigmas de programación
+
+Cumplimiento de requerimientos: 
+| Requerimiento      | Estado |
+| ----------- | ----------- |
+| Creación Base de datos      | :x:  |
+| GUI   | :x:        |
+| Controlador   | :x:        |
+| CRUD mediante API REST Service   | :x:     |
+| Modulo Administrativo en Python   | :x:    |
+| Unión funcional del proyecto   | :x:        |
