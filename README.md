@@ -12,6 +12,12 @@ Cumplimiento de requerimientos:
 
 # Explicación de actualizaciones
 
+## Actualización 23/05/2022 -> (Explicación de creación de tabla relacional)
+
+![image](https://user-images.githubusercontent.com/85517698/169774550-05752991-602e-4a7d-adec-552d043beb8a.png)
+
+Esta sección de código nos ayuda a generar tablas relacionales, esta hecho sobre la clase carros y se relaciona con la clase agencias (*Es importante ver que el nombre de los id coincida para que pueda hacer la unión adecuadamente*).
+
 ## Actualización 22/05/2022 -> (Explicación de las bases del proyecto)
 
 ![image](https://user-images.githubusercontent.com/85517698/169746614-71a614fd-3295-4d3f-97a2-3a7d791181c8.png)
