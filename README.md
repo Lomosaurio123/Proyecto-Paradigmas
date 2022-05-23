@@ -12,6 +12,8 @@ Cumplimiento de requerimientos:
 
 # Explicación de actualizaciones
 
+## Actualización 22/05/2022 -> (Explicación de las bases del proyecto)
+
 ![image](https://user-images.githubusercontent.com/85517698/169746614-71a614fd-3295-4d3f-97a2-3a7d791181c8.png)
 
 Importante: El App.java debe estar siempre al tope de las demás carpetas dentro de esa sección
