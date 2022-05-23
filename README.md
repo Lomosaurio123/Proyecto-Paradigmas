@@ -3,7 +3,7 @@
 Cumplimiento de requerimientos: 
 | Requerimiento      | Estado |
 | ----------- | ----------- |
-| Creación Base de datos      | :white_check_mark:  |
+| Creación Base de datos      | :hammer:  |
 | GUI   | :x:        |
 | Controlador   | :x:        |
 | CRUD mediante API REST Service   | :x:     |
@@ -12,11 +12,14 @@ Cumplimiento de requerimientos:
 
 # Explicación de actualizaciones
 
+## Actualización 22/05/2022 -> (Explicación de las bases del proyecto)
+
 ![image](https://user-images.githubusercontent.com/85517698/169746614-71a614fd-3295-4d3f-97a2-3a7d791181c8.png)
 
 Importante: El App.java debe estar siempre al tope de las demás carpetas dentro de esa sección
 
 ![image](https://user-images.githubusercontent.com/85517698/169747970-33e19e42-a35c-47ae-bcad-cd6f55a7251c.png)
+
 ![image](https://user-images.githubusercontent.com/85517698/169748004-bcb5e684-3ddd-4c39-a615-3aac78455090.png)
 
 Aqui es donde se esta creando la tabla clientes en la base de datos, las etiquetas son identificadores para el mysql par a saber si son entidades, llaves, etc.
