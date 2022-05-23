@@ -3,7 +3,7 @@
 Cumplimiento de requerimientos: 
 | Requerimiento      | Estado |
 | ----------- | ----------- |
-| Creación Base de datos      | :white_check_mark:  |
+| Creación Base de datos      | :hammer:  |
 | GUI   | :x:        |
 | Controlador   | :x:        |
 | CRUD mediante API REST Service   | :x:     |
