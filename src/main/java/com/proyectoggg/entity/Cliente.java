@@ -14,7 +14,7 @@ public class Cliente {
 
     
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long ID_Cliente;
     @Column(length = 50, nullable = false)
     private String Nombre;
@@ -22,12 +22,37 @@ public class Cliente {
     private String Apellido_m;
     @Column(length = 50, nullable = false)
     private String Apellido_p;
-    @Column(length = 50)
-    private String Dir;
+    @Column(length = 50, nullable = false)
+    private String Colonia;
+    @Column(nullable = false)
+    private int CP;
+    @Column(length = 50, nullable = false)
+    private String Calle;
+    @Column(nullable = false)
+    private int N_Exterior;
+    @Column(length = 50, nullable = false)
+    private String Estado;
     @Column(length = 59, nullable = false, unique = true)
     private String Correo;
     private Integer Edad;
     private Integer Tel;
+
+
+
+    public Cliente(String nombre, String apellido_m, String apellido_p, String colonia, int cP, String calle,
+            int n_Exterior, String estado, String correo, Integer edad, Integer tel) {
+        Nombre = nombre;
+        Apellido_m = apellido_m;
+        Apellido_p = apellido_p;
+        Colonia = colonia;
+        CP = cP;
+        Calle = calle;
+        N_Exterior = n_Exterior;
+        Estado = estado;
+        Correo = correo;
+        Edad = edad;
+        Tel = tel;
+    }
 
     public Long getID_Cliente() {
         return ID_Cliente;
@@ -53,11 +78,35 @@ public class Cliente {
     public void setApellido_p(String apellido_p) {
         Apellido_p = apellido_p;
     }
-    public String getDir() {
-        return Dir;
+    public String getColonia() {
+        return Colonia;
     }
-    public void setDir(String dir) {
-        Dir = dir;
+    public void setColonia(String colonia) {
+        Colonia = colonia;
+    }
+    public int getCP() {
+        return CP;
+    }
+    public void setCP(int cP) {
+        CP = cP;
+    }
+    public String getCalle() {
+        return Calle;
+    }
+    public void setCalle(String calle) {
+        Calle = calle;
+    }
+    public int getN_Exterior() {
+        return N_Exterior;
+    }
+    public void setN_Exterior(int n_Exterior) {
+        N_Exterior = n_Exterior;
+    }
+    public String getEstado() {
+        return Estado;
+    }
+    public void setEstado(String estado) {
+        Estado = estado;
     }
     public String getCorreo() {
         return Correo;
@@ -77,7 +126,6 @@ public class Cliente {
     public void setTel(Integer tel) {
         Tel = tel;
     }
-
     
 
 }
