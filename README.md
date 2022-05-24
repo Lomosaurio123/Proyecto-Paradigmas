@@ -6,7 +6,7 @@ Cumplimiento de requerimientos:
 | Creación Base de datos      | ✅  |
 | GUI   | :x:        |
 | Controlador   | 🔨        |
-| CRUD mediante API REST Service   | :x:     |
+| CRUD mediante API REST Service   | 🔨     |
 | Modulo Administrativo en Python   | :x:    |
 | Unión funcional del proyecto   | :x:        |
 
