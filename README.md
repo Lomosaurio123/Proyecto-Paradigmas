@@ -12,6 +12,12 @@ Cumplimiento de requerimientos:
 
 # Explicación de actualizaciones
 
+## Actualización 24/05/2022 -> (Generación de base de datos)
+
+![image](https://user-images.githubusercontent.com/85517698/170147179-540737c1-d06f-490b-a348-ced6bf584f51.png)
+
+Esta fue la base generada con Spring, por lo que ya está lista para crear la API REST service.
+
 ## Actualización 23/05/2022 -> (Explicación de creación de tabla relacional)
 
 ![image](https://user-images.githubusercontent.com/85517698/169774550-05752991-602e-4a7d-adec-552d043beb8a.png)
