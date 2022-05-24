@@ -1,6 +1,5 @@
 package com.proyectoggg.entity;
 
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -8,13 +7,14 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+
 @Entity
 @Table(name = "clientes")
 public class Cliente { 
 
     
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long ID_Cliente;
     @Column(length = 50, nullable = false)
     private String Nombre;
@@ -36,7 +36,6 @@ public class Cliente {
     private String Correo;
     private Integer Edad;
     private Integer Tel;
-
 
 
     public Cliente(String nombre, String apellido_m, String apellido_p, String colonia, int cP, String calle,

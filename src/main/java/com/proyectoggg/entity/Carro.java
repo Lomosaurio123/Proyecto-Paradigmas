@@ -19,7 +19,7 @@ import javax.persistence.Table;
 public class Carro {
     
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long ID_Carro;
     @Column(length = 50, nullable = false)
     private String Modelo;
