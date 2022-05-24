@@ -3,9 +3,9 @@
 Cumplimiento de requerimientos: 
 | Requerimiento      | Estado |
 | ----------- | ----------- |
-| Creación Base de datos      | :hammer:  |
+| Creación Base de datos      | ✅  |
 | GUI   | :x:        |
-| Controlador   | :x:        |
+| Controlador   | 🔨        |
 | CRUD mediante API REST Service   | :x:     |
 | Modulo Administrativo en Python   | :x:    |
 | Unión funcional del proyecto   | :x:        |
