@@ -38,21 +38,6 @@ public class Cliente {
     private Integer Tel;
 
 
-    public Cliente(String nombre, String apellido_m, String apellido_p, String colonia, int cP, String calle,
-            int n_Exterior, String estado, String correo, Integer edad, Integer tel) {
-        Nombre = nombre;
-        Apellido_m = apellido_m;
-        Apellido_p = apellido_p;
-        Colonia = colonia;
-        CP = cP;
-        Calle = calle;
-        N_Exterior = n_Exterior;
-        Estado = estado;
-        Correo = correo;
-        Edad = edad;
-        Tel = tel;
-    }
-
     public Long getID_Cliente() {
         return ID_Cliente;
     }

@@ -39,16 +39,6 @@ public class Carro {
     )
     private List<Agencia> agencias = new ArrayList<Agencia>();
 
-    //Constructor 
-
-    public Carro(String modelo, int year, String tipo, String marca, String color) {
-        Modelo = modelo;
-        Year = year;
-        Tipo = tipo;
-        Marca = marca;
-        Color = color;
-    }
-
     //Getters y Setters
 
     public Long getID_Carro() {
